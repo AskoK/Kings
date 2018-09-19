@@ -25,7 +25,7 @@ public class King {
     public int getTo() {
         return to;
     }
-    
+
     public String toString(){
         return name;
     }
