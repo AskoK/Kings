@@ -52,6 +52,9 @@ public class SpinnerKings extends AppCompatActivity {
     }
 
     public void update(int position) {
-
+        int a = kings.get(position).getFrom();
+        int b = kings.get(position).getTo();
+        from.setText(a == 0 ? "" : "" + a);
+        to.setText(b == 9999 ? "" : "" + b);
     }
 }
